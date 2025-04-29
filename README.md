@@ -97,6 +97,23 @@ This project combines **Web Mining**, **Natural Language Processing (NLP)**, and
 
 *   **Best Model**: Random Forest (saved as `best_rf.pkl`)
 
+* * *
 
+📜 License
+----------
+
+This project is developed solely for academic purposes as part of the **Web Mining (IS688102)** course at [Your University Name].
+
+* * *
+
+🙏 Acknowledgements
+-------------------
+
+*   [HuggingFace - FinBERT Tone Model](https://huggingface.co/yiyanghkust/finbert-tone)
+*   [NewsAPI](https://newsapi.org/)
+*   [Alpha Vantage API](https://www.alphavantage.co/)
+*   [Yahoo Finance](https://finance.yahoo.com/)
+
+* * *
 
 
