@@ -37,3 +37,65 @@ This project combines **Web Mining**, **Natural Language Processing (NLP)**, and
    ```bash
    git clone https://github.com/your-repo/stock-sentiment-analysis.git
    cd stock-sentiment-analysis
+
+   🛠️ How to Run the Streamlit Dashboard Locally
+----------------------------------------------
+
+1. Clone this repository:
+    ```bash
+    git clone https://github.com/your-repo/stock-sentiment-analysis.git
+    cd stock-sentiment-analysis
+    ```
+
+2. Install required Python libraries:
+    ```bash
+    pip install streamlit pandas yfinance newsapi-python alpha_vantage transformers scikit-learn xgboost
+    ```
+
+3. **Configure API Keys**:
+    * Open `app.py`
+    * Replace the placeholder API keys:
+        * `NewsAPI` Key
+        * `Alpha Vantage` Key
+
+4. Start the Streamlit app:
+    ```bash
+    streamlit run app.py
+    ```
+
+* * *
+
+🧠 Project Highlights
+---------------------
+
+*   Real-time stock data fetching (5-min intraday)
+*   Sentiment analysis using FinBERT for financial headlines
+*   Moving averages calculation for 5-day and 10-day periods
+*   Live feature generation and input to pre-trained Random Forest model
+*   Dashboard display of prediction, sentiment score, stock metrics, and news headlines
+*   Error handling for API failures and missing data
+
+* * *
+
+🧪 Machine Learning Details
+---------------------------
+
+*   **Feature Engineering**:
+    *   `open_price`, `close_price`, `volume`
+    *   `sentiment_score`, `prev_sentiment`
+    *   `ma_5`, `ma_10` (5 and 10-day moving averages)
+
+*   **Model Comparison**:
+
+    | Model | Accuracy (%) |
+    | --- | --- |
+    | Logistic Regression | 46.78% |
+    | Random Forest Classifier | **69.97%** |
+    | XGBoost Classifier | 62.72% |
+    | Support Vector Machine | 56.93% |
+    | K-Nearest Neighbors | 64.17% |
+
+*   **Best Model**: Random Forest (saved as `best_rf.pkl`)
+
+*
+
