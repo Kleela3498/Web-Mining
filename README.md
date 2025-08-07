@@ -102,7 +102,7 @@ This project combines **Web Mining**, **Natural Language Processing (NLP)**, and
 📜 License
 ----------
 
-This project is developed solely for academic purposes as part of the **Web Mining (IS688102)** course at [Your University Name].
+This project is developed solely for academic purposes as part of the **Web Mining (IS688102)** course at New Jersey Institute of Technology.
 
 * * *
 
